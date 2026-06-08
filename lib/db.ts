@@ -6,46 +6,39 @@
  *
  * Vercel compatibility
  * ────────────────────
- * Vercel serverless functions run on a read-only filesystem; only /tmp is
- * writable.  On first use the bundled database is copied to /tmp/eztime.db
- * and all subsequent reads/writes happen there.
- *
- * Local development (Windows)
- * ───────────────────────────
- * /tmp does not exist on Windows, so the copy attempt throws and we fall back
- * to opening the source file directly — identical to the previous behaviour.
+ * Vercel serverless functions run on a read-only filesystem; only os.tmpdir()
+ * is writable. The bundled database is copied there on every cold start so
+ * SQLite always has a writable file to open.
  */
 import { DatabaseSync } from "node:sqlite";
 import path from "path";
 import fs from "fs";
+import os from "os";
 
-/** Bundled (potentially read-only) database — the source of truth. */
+/** Bundled (read-only on Vercel) database — the source of truth. */
 export const DB_FILE_PATH = path.join(process.cwd(), "database", "eztime.db");
 
-/** Writable runtime copy used on Vercel and other Unix serverless runtimes. */
-const TMP_DB_PATH = "/tmp/eztime.db";
-
 /**
- * Returns the path to open at runtime.
- * Tries to copy the bundled DB to /tmp; falls back to the source path when
- * /tmp is inaccessible (Windows local dev).
+ * Copies the bundled DB to os.tmpdir() on every cold start and returns the
+ * writable tmp path. Throws clearly if the bundled file is missing.
  */
 function resolveDbPath(): string {
-  try {
-    if (!fs.existsSync(TMP_DB_PATH)) {
-      fs.copyFileSync(DB_FILE_PATH, TMP_DB_PATH);
-    }
-    return TMP_DB_PATH;
-  } catch {
-    // /tmp not writable — use the source file directly (local dev)
-    return DB_FILE_PATH;
-  }
-}
+  const sourcePath = path.join(process.cwd(), "database", "eztime.db");
+  const targetPath = path.join(os.tmpdir(), "eztime.db");
 
-// Ensure the source DB directory exists (needed for first-time local setup)
-const dbDir = path.dirname(DB_FILE_PATH);
-if (!fs.existsSync(dbDir)) {
-  fs.mkdirSync(dbDir, { recursive: true });
+  console.log("SQLite sourcePath:", sourcePath, "exists:", fs.existsSync(sourcePath));
+  console.log("SQLite targetPath:", targetPath, "exists:", fs.existsSync(targetPath));
+
+  if (!fs.existsSync(sourcePath)) {
+    throw new Error(`Bundled SQLite database not found at ${sourcePath}`);
+  }
+
+  fs.mkdirSync(path.dirname(targetPath), { recursive: true });
+  fs.copyFileSync(sourcePath, targetPath);
+
+  console.log("SQLite copied target exists:", fs.existsSync(targetPath));
+
+  return targetPath;
 }
 
 // Global holder – prevents duplicate connections during Next.js dev hot-reloads
