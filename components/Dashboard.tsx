@@ -88,11 +88,23 @@ export function Dashboard() {
 
   // ── Fetch employees on mount ──────────────────────────────────────────────
   useEffect(() => {
-    fetch("/api/employees")
-      .then((r) => r.json())
-      .then((data) => setEmployees(data))
-      .catch(() => setFormError("שגיאה בטעינת רשימת עובדים"))
-      .finally(() => setLoadingEmps(false));
+    (async () => {
+      try {
+        const res = await fetch("/api/employees");
+        const data = await res.json();
+        if (!res.ok) {
+          setEmployees([]);
+          setFormError(data?.error || "טעינת העובדים נכשלה");
+          return;
+        }
+        setEmployees(Array.isArray(data) ? data : []);
+      } catch {
+        setEmployees([]);
+        setFormError("שגיאה בטעינת רשימת עובדים");
+      } finally {
+        setLoadingEmps(false);
+      }
+    })();
   }, []);
 
   // ── Fetch options when employee changes ───────────────────────────────────
