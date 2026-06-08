@@ -115,7 +115,7 @@ export function SummaryPanel({ summary, loading, hasEmployee, hasDate }: Props) 
                   </div>
                   <div className="text-left flex-shrink-0">
                     <p className="text-sm font-bold text-indigo-600">
-                      {parseFloat(hours.toFixed(2))} ש'
+                      {parseFloat(hours.toFixed(2))}{" ש'"}
                     </p>
                     <p className="text-xs text-slate-400 text-left">{pct}%</p>
                   </div>
@@ -170,7 +170,7 @@ export function SummaryPanel({ summary, loading, hasEmployee, hasDate }: Props) 
                   <td className="px-4 py-3 font-mono text-slate-600">{shift.end_time}</td>
                   <td className="px-4 py-3">
                     <span className="bg-sky-50 text-sky-700 border border-sky-100 rounded-full px-2.5 py-0.5 text-xs font-medium">
-                      {parseFloat(Number(shift.duration_hours).toFixed(2))} ש'
+                      {parseFloat(Number(shift.duration_hours).toFixed(2))}{" ש'"}
                     </span>
                   </td>
                   <td className="px-4 py-3 font-semibold text-emerald-600">₪{shift.rate}</td>
