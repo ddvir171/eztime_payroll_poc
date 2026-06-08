@@ -3,14 +3,46 @@
  *
  * SQLite singleton using the Node.js built-in `node:sqlite` module (Node 22+).
  * Attached to `globalThis` so a single connection survives Next.js hot-reloads.
+ *
+ * Vercel compatibility
+ * ────────────────────
+ * Vercel serverless functions run on a read-only filesystem; only /tmp is
+ * writable.  On first use the bundled database is copied to /tmp/eztime.db
+ * and all subsequent reads/writes happen there.
+ *
+ * Local development (Windows)
+ * ───────────────────────────
+ * /tmp does not exist on Windows, so the copy attempt throws and we fall back
+ * to opening the source file directly — identical to the previous behaviour.
  */
 import { DatabaseSync } from "node:sqlite";
 import path from "path";
 import fs from "fs";
 
+/** Bundled (potentially read-only) database — the source of truth. */
 export const DB_FILE_PATH = path.join(process.cwd(), "database", "eztime.db");
 
-// Create the database directory if it does not exist yet
+/** Writable runtime copy used on Vercel and other Unix serverless runtimes. */
+const TMP_DB_PATH = "/tmp/eztime.db";
+
+/**
+ * Returns the path to open at runtime.
+ * Tries to copy the bundled DB to /tmp; falls back to the source path when
+ * /tmp is inaccessible (Windows local dev).
+ */
+function resolveDbPath(): string {
+  try {
+    if (!fs.existsSync(TMP_DB_PATH)) {
+      fs.copyFileSync(DB_FILE_PATH, TMP_DB_PATH);
+    }
+    return TMP_DB_PATH;
+  } catch {
+    // /tmp not writable — use the source file directly (local dev)
+    return DB_FILE_PATH;
+  }
+}
+
+// Ensure the source DB directory exists (needed for first-time local setup)
 const dbDir = path.dirname(DB_FILE_PATH);
 if (!fs.existsSync(dbDir)) {
   fs.mkdirSync(dbDir, { recursive: true });
@@ -21,7 +53,12 @@ const g = globalThis as typeof globalThis & { __ezDb?: DatabaseSync };
 
 export function getDb(): DatabaseSync {
   if (!g.__ezDb) {
-    g.__ezDb = new DatabaseSync(DB_FILE_PATH);
+    const dbPath = resolveDbPath();
+    g.__ezDb = new DatabaseSync(dbPath);
+    // DELETE mode: no -wal / -shm sidecar files (required when writing to /tmp)
+    // Checkpoint any existing WAL first, then switch modes.
+    g.__ezDb.exec("PRAGMA journal_mode = DELETE;");
+    g.__ezDb.exec("PRAGMA busy_timeout = 5000;");
     applySchema(g.__ezDb);
   }
   return g.__ezDb;
@@ -31,7 +68,6 @@ export function getDb(): DatabaseSync {
 
 export function applySchema(db: DatabaseSync): void {
   db.exec(`
-    PRAGMA journal_mode = WAL;
     PRAGMA foreign_keys = ON;
 
     -- ── Lookup tables ────────────────────────────────────────────────────────
