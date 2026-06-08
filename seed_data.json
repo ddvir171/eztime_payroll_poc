@@ -1,0 +1,4306 @@
+{
+  "employees": [
+    {
+      "employee_id": "E1001",
+      "full_name": "דנה אלון",
+      "status": "active",
+      "allowed_roles": [
+        "מחסנאי",
+        "קופאי",
+        "נציג שירות"
+      ],
+      "allowed_companies": [
+        "חברת בת ה",
+        "חברת בת ב",
+        "חברת בת ד"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1002",
+      "full_name": "עמית אדרי",
+      "status": "active",
+      "allowed_roles": [
+        "אחראי משמרת",
+        "סדרן",
+        "קופאי",
+        "מאבטח"
+      ],
+      "allowed_companies": [
+        "חברת בת ג",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1003",
+      "full_name": "דניאל סויסה",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "מנהל סניף"
+      ],
+      "allowed_companies": [
+        "חברת בת ג",
+        "חברת בת ד"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1004",
+      "full_name": "טל אביטל",
+      "status": "active",
+      "allowed_roles": [
+        "טכנאי",
+        "מאבטח"
+      ],
+      "allowed_companies": [
+        "חברת בת ז",
+        "חברת בת ד",
+        "חברת בת ח"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1005",
+      "full_name": "מאיה סויסה",
+      "status": "active",
+      "allowed_roles": [
+        "סדרן",
+        "מחסנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ח",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1006",
+      "full_name": "איתי אביטל",
+      "status": "inactive",
+      "allowed_roles": [
+        "מנהל סניף",
+        "קופאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ב",
+        "חברת בת ג",
+        "חברת בת ה",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1007",
+      "full_name": "שחר אביטל",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "נהג",
+        "טכנאי",
+        "סדרן"
+      ],
+      "allowed_companies": [
+        "חברת בת ב",
+        "חברת בת ז"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1008",
+      "full_name": "שני סויסה",
+      "status": "active",
+      "allowed_roles": [
+        "קופאי",
+        "מחסנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת ח",
+        "חברת בת ג",
+        "חברת בת ד"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1009",
+      "full_name": "רון לוי",
+      "status": "active",
+      "allowed_roles": [
+        "נהג",
+        "קופאי",
+        "מאבטח",
+        "אחראי משמרת"
+      ],
+      "allowed_companies": [
+        "חברת בת ה",
+        "חברת בת ו",
+        "חברת בת א",
+        "חברת בת ג"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1010",
+      "full_name": "טל ביטון",
+      "status": "active",
+      "allowed_roles": [
+        "טכנאי",
+        "מנהל סניף"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת ח",
+        "חברת בת ב",
+        "חברת בת ה"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1011",
+      "full_name": "דנה אלון",
+      "status": "active",
+      "allowed_roles": [
+        "סדרן",
+        "טכנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת ח",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1012",
+      "full_name": "עמית סויסה",
+      "status": "active",
+      "allowed_roles": [
+        "מנהל סניף",
+        "נהג",
+        "נציג שירות",
+        "אחראי משמרת"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת ג",
+        "חברת בת א",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1013",
+      "full_name": "דנה סויסה",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "מאבטח"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת ז",
+        "חברת בת ח"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1014",
+      "full_name": "מאיה אלון",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "קופאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת א",
+        "חברת בת ח"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1015",
+      "full_name": "שני אלון",
+      "status": "active",
+      "allowed_roles": [
+        "קופאי",
+        "מנהל סניף"
+      ],
+      "allowed_companies": [
+        "חברת בת א",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1016",
+      "full_name": "שני אברהם",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "נהג",
+        "קופאי",
+        "מלקט"
+      ],
+      "allowed_companies": [
+        "חברת בת ג",
+        "חברת בת א",
+        "חברת בת ז",
+        "חברת בת ו"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1017",
+      "full_name": "יוסי אדרי",
+      "status": "active",
+      "allowed_roles": [
+        "סדרן",
+        "מאבטח"
+      ],
+      "allowed_companies": [
+        "חברת בת ד",
+        "חברת בת ג",
+        "חברת בת ה"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1018",
+      "full_name": "נועם שטרן",
+      "status": "active",
+      "allowed_roles": [
+        "קופאי",
+        "מאבטח",
+        "נהג"
+      ],
+      "allowed_companies": [
+        "חברת בת ז",
+        "חברת בת ח",
+        "חברת בת ה"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1019",
+      "full_name": "שירה אברהם",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "קופאי"
+      ],
+      "allowed_companies": [
+        "חברת בת א",
+        "חברת בת ז",
+        "חברת בת ב",
+        "חברת בת ו"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1020",
+      "full_name": "אור אביטל",
+      "status": "active",
+      "allowed_roles": [
+        "מאבטח",
+        "נהג",
+        "נציג שירות",
+        "אחראי משמרת"
+      ],
+      "allowed_companies": [
+        "חברת בת א",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1021",
+      "full_name": "עמית כהן",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "טכנאי",
+        "מאבטח",
+        "אחראי משמרת"
+      ],
+      "allowed_companies": [
+        "חברת בת ח",
+        "חברת בת ג"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1022",
+      "full_name": "רון אביטל",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "נציג שירות",
+        "טכנאי",
+        "מנהל סניף"
+      ],
+      "allowed_companies": [
+        "חברת בת ה",
+        "חברת בת ח"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1023",
+      "full_name": "שני אברהם",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "נהג",
+        "מחסנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ד",
+        "חברת בת ח",
+        "חברת בת א",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 8.0
+    },
+    {
+      "employee_id": "E1024",
+      "full_name": "מאיה אברהם",
+      "status": "active",
+      "allowed_roles": [
+        "נהג",
+        "קופאי",
+        "מלקט",
+        "מחסנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ד",
+        "חברת בת ו",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1025",
+      "full_name": "אור ביטון",
+      "status": "active",
+      "allowed_roles": [
+        "קופאי",
+        "אחראי משמרת"
+      ],
+      "allowed_companies": [
+        "חברת בת ז",
+        "חברת בת ג",
+        "חברת בת ד",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 8.0
+    },
+    {
+      "employee_id": "E1026",
+      "full_name": "איתי מזרחי",
+      "status": "active",
+      "allowed_roles": [
+        "נהג",
+        "טכנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ח",
+        "חברת בת ו",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1027",
+      "full_name": "איתי גולן",
+      "status": "active",
+      "allowed_roles": [
+        "מחסנאי",
+        "מנהל סניף",
+        "סדרן",
+        "מאבטח"
+      ],
+      "allowed_companies": [
+        "חברת בת ה",
+        "חברת בת ג"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1028",
+      "full_name": "רוני כץ",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "אחראי משמרת",
+        "קופאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ח",
+        "חברת בת ו",
+        "חברת בת ג",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 8.0
+    },
+    {
+      "employee_id": "E1029",
+      "full_name": "נועה ביטון",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "מאבטח"
+      ],
+      "allowed_companies": [
+        "חברת בת ב",
+        "חברת בת ז",
+        "חברת בת ג",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1030",
+      "full_name": "דנה מזרחי",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "מאבטח"
+      ],
+      "allowed_companies": [
+        "חברת בת ז",
+        "חברת בת ג",
+        "חברת בת ה"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1031",
+      "full_name": "נועה גולן",
+      "status": "active",
+      "allowed_roles": [
+        "קופאי",
+        "מלקט"
+      ],
+      "allowed_companies": [
+        "חברת בת ג",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 8.0
+    },
+    {
+      "employee_id": "E1032",
+      "full_name": "גל גולן",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "טכנאי",
+        "קופאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת ז",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 8.0
+    },
+    {
+      "employee_id": "E1033",
+      "full_name": "נועה לוי",
+      "status": "inactive",
+      "allowed_roles": [
+        "טכנאי",
+        "סדרן",
+        "נציג שירות",
+        "מחסנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ב",
+        "חברת בת ו",
+        "חברת בת ז"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1034",
+      "full_name": "אור רז",
+      "status": "active",
+      "allowed_roles": [
+        "טכנאי",
+        "מלקט",
+        "סדרן"
+      ],
+      "allowed_companies": [
+        "חברת בת ו",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1035",
+      "full_name": "ליאור גבאי",
+      "status": "active",
+      "allowed_roles": [
+        "מאבטח",
+        "מחסנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ה",
+        "חברת בת ד",
+        "חברת בת ב",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1036",
+      "full_name": "ליאור גולן",
+      "status": "active",
+      "allowed_roles": [
+        "מנהל סניף",
+        "סדרן",
+        "מלקט"
+      ],
+      "allowed_companies": [
+        "חברת בת ח",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1037",
+      "full_name": "עמית מלכה",
+      "status": "inactive",
+      "allowed_roles": [
+        "נהג",
+        "טכנאי",
+        "מנהל סניף"
+      ],
+      "allowed_companies": [
+        "חברת בת א",
+        "חברת בת ג"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1038",
+      "full_name": "טל ביטון",
+      "status": "inactive",
+      "allowed_roles": [
+        "מחסנאי",
+        "נציג שירות",
+        "מלקט"
+      ],
+      "allowed_companies": [
+        "חברת בת ד",
+        "חברת בת ב",
+        "חברת בת ה",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1039",
+      "full_name": "עמית מזרחי",
+      "status": "active",
+      "allowed_roles": [
+        "מאבטח",
+        "אחראי משמרת",
+        "מנהל סניף",
+        "קופאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ד",
+        "חברת בת א",
+        "חברת בת ה"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1040",
+      "full_name": "יוסי אביטל",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "קופאי",
+        "מלקט"
+      ],
+      "allowed_companies": [
+        "חברת בת ג",
+        "חברת בת א",
+        "חברת בת ו",
+        "חברת בת ה"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1041",
+      "full_name": "רון אברהם",
+      "status": "active",
+      "allowed_roles": [
+        "מנהל סניף",
+        "מאבטח",
+        "סדרן",
+        "טכנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת א",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 8.0
+    },
+    {
+      "employee_id": "E1042",
+      "full_name": "מאיה אלון",
+      "status": "active",
+      "allowed_roles": [
+        "מאבטח",
+        "מנהל סניף",
+        "סדרן",
+        "נציג שירות"
+      ],
+      "allowed_companies": [
+        "חברת בת א",
+        "חברת בת ד",
+        "חברת בת ח"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1043",
+      "full_name": "שירה מזרחי",
+      "status": "active",
+      "allowed_roles": [
+        "נציג שירות",
+        "מלקט"
+      ],
+      "allowed_companies": [
+        "חברת בת ה",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1044",
+      "full_name": "דנה מלכה",
+      "status": "active",
+      "allowed_roles": [
+        "מחסנאי",
+        "נציג שירות",
+        "מלקט"
+      ],
+      "allowed_companies": [
+        "חברת בת ד",
+        "חברת בת א"
+      ],
+      "daily_standard_hours": 9.0
+    },
+    {
+      "employee_id": "E1045",
+      "full_name": "יוסי שטרן",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "קופאי",
+        "מאבטח",
+        "סדרן"
+      ],
+      "allowed_companies": [
+        "חברת בת ח",
+        "חברת בת ג"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1046",
+      "full_name": "שחר סויסה",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "נציג שירות",
+        "טכנאי",
+        "סדרן"
+      ],
+      "allowed_companies": [
+        "חברת בת ד",
+        "חברת בת ג"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1047",
+      "full_name": "אור לוי",
+      "status": "active",
+      "allowed_roles": [
+        "טכנאי",
+        "נציג שירות"
+      ],
+      "allowed_companies": [
+        "חברת בת ז",
+        "חברת בת ב",
+        "חברת בת ח"
+      ],
+      "daily_standard_hours": 7.0
+    },
+    {
+      "employee_id": "E1048",
+      "full_name": "נועם מזרחי",
+      "status": "active",
+      "allowed_roles": [
+        "מלקט",
+        "נהג",
+        "קופאי",
+        "מנהל סניף"
+      ],
+      "allowed_companies": [
+        "חברת בת ה",
+        "חברת בת א",
+        "חברת בת ו",
+        "חברת בת ג"
+      ],
+      "daily_standard_hours": 7.5
+    },
+    {
+      "employee_id": "E1049",
+      "full_name": "אור סויסה",
+      "status": "active",
+      "allowed_roles": [
+        "מאבטח",
+        "נציג שירות"
+      ],
+      "allowed_companies": [
+        "חברת בת ח",
+        "חברת בת ד",
+        "חברת בת ג",
+        "חברת בת ב"
+      ],
+      "daily_standard_hours": 8.5
+    },
+    {
+      "employee_id": "E1050",
+      "full_name": "טל אלון",
+      "status": "active",
+      "allowed_roles": [
+        "מאבטח",
+        "נהג",
+        "טכנאי"
+      ],
+      "allowed_companies": [
+        "חברת בת ב",
+        "חברת בת ח",
+        "חברת בת ו"
+      ],
+      "daily_standard_hours": 7.0
+    }
+  ],
+  "rates": [
+    {
+      "employee_id": "E1001",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ה",
+      "rate": 68.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "rate": 95.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "rate": 80.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ד",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ה",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1001",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ג",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ב",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ג",
+      "rate": 95.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "rate": 81.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 82.0
+    },
+    {
+      "employee_id": "E1002",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "rate": 95.0
+    },
+    {
+      "employee_id": "E1003",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1003",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "rate": 58.0
+    },
+    {
+      "employee_id": "E1003",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ג",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1003",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ד",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1004",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ז",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1004",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ד",
+      "rate": 67.0
+    },
+    {
+      "employee_id": "E1004",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 79.0
+    },
+    {
+      "employee_id": "E1004",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ז",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1004",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "rate": 99.0
+    },
+    {
+      "employee_id": "E1004",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 57.0
+    },
+    {
+      "employee_id": "E1005",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ח",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1005",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1005",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ח",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1005",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "rate": 79.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ב",
+      "rate": 94.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ג",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "rate": 90.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1006",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ז",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "נהג",
+      "company_name": "חברת בת ב",
+      "rate": 68.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "נהג",
+      "company_name": "חברת בת ז",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ז",
+      "rate": 90.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1007",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ז",
+      "rate": 88.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ח",
+      "rate": 81.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 79.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ד",
+      "rate": 70.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ו",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ח",
+      "rate": 99.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ג",
+      "rate": 88.0
+    },
+    {
+      "employee_id": "E1008",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "נהג",
+      "company_name": "חברת בת ה",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "נהג",
+      "company_name": "חברת בת ו",
+      "rate": 68.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "נהג",
+      "company_name": "חברת בת ג",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 94.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ה",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ו",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "rate": 67.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 68.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ה",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ו",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת א",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1009",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ג",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ה",
+      "rate": 79.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ו",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ח",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ב",
+      "rate": 78.0
+    },
+    {
+      "employee_id": "E1010",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1011",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ו",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1011",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ח",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1011",
+      "role_name": "סדרן",
+      "company_name": "חברת בת א",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1011",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "rate": 95.0
+    },
+    {
+      "employee_id": "E1011",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1011",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת א",
+      "rate": 82.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ו",
+      "rate": 52.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ג",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ב",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נהג",
+      "company_name": "חברת בת ו",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נהג",
+      "company_name": "חברת בת ג",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נהג",
+      "company_name": "חברת בת ב",
+      "rate": 89.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 88.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "rate": 88.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ו",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ג",
+      "rate": 81.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת א",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1012",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ב",
+      "rate": 81.0
+    },
+    {
+      "employee_id": "E1013",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 70.0
+    },
+    {
+      "employee_id": "E1013",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1013",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1013",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ו",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1013",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ז",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1013",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1014",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1014",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1014",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1014",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 89.0
+    },
+    {
+      "employee_id": "E1014",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1014",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ח",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1015",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1015",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "rate": 57.0
+    },
+    {
+      "employee_id": "E1015",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1015",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ב",
+      "rate": 65.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "rate": 67.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 94.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נהג",
+      "company_name": "חברת בת ג",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 81.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נהג",
+      "company_name": "חברת בת ז",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "נהג",
+      "company_name": "חברת בת ו",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 64.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ז",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ז",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1016",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ו",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1017",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ד",
+      "rate": 95.0
+    },
+    {
+      "employee_id": "E1017",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ג",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1017",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ה",
+      "rate": 58.0
+    },
+    {
+      "employee_id": "E1017",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1017",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 57.0
+    },
+    {
+      "employee_id": "E1017",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ה",
+      "rate": 90.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ז",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ח",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ז",
+      "rate": 81.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 58.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ה",
+      "rate": 89.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "נהג",
+      "company_name": "חברת בת ז",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "נהג",
+      "company_name": "חברת בת ח",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1018",
+      "role_name": "נהג",
+      "company_name": "חברת בת ה",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 56.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ז",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1019",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "נהג",
+      "company_name": "חברת בת ב",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת א",
+      "rate": 67.0
+    },
+    {
+      "employee_id": "E1020",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ב",
+      "rate": 79.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ג",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 95.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ח",
+      "rate": 68.0
+    },
+    {
+      "employee_id": "E1021",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ג",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ה",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ח",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ה",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ה",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 58.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1022",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ח",
+      "rate": 99.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "rate": 100.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נהג",
+      "company_name": "חברת בת ד",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נהג",
+      "company_name": "חברת בת ח",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "נהג",
+      "company_name": "חברת בת ב",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ח",
+      "rate": 100.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת א",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1023",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "נהג",
+      "company_name": "חברת בת ד",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "נהג",
+      "company_name": "חברת בת ו",
+      "rate": 100.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ד",
+      "rate": 52.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ו",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ו",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1024",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת א",
+      "rate": 70.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ז",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 64.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ד",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ז",
+      "rate": 68.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ג",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ד",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1025",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ב",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1026",
+      "role_name": "נהג",
+      "company_name": "חברת בת ח",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1026",
+      "role_name": "נהג",
+      "company_name": "חברת בת ו",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1026",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 67.0
+    },
+    {
+      "employee_id": "E1026",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1026",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1026",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת א",
+      "rate": 79.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ה",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ג",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ג",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ה",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ג",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ה",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1027",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ח",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ו",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 78.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ח",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ו",
+      "rate": 90.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ג",
+      "rate": 88.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת א",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ח",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 94.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1028",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ז",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ז",
+      "rate": 89.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1029",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1030",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1030",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "rate": 57.0
+    },
+    {
+      "employee_id": "E1030",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ה",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1030",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ז",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1030",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1030",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ה",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1031",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1031",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1031",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1031",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "rate": 70.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "rate": 89.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ז",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת א",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 65.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ז",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1032",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "rate": 80.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "rate": 80.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ז",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ו",
+      "rate": 56.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ז",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 57.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "rate": 80.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ו",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1033",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ז",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1034",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1034",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1034",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ו",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1034",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "rate": 88.0
+    },
+    {
+      "employee_id": "E1034",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ו",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1034",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ה",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ה",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "rate": 82.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1035",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת א",
+      "rate": 64.0
+    },
+    {
+      "employee_id": "E1036",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ח",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1036",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ב",
+      "rate": 100.0
+    },
+    {
+      "employee_id": "E1036",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ח",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1036",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "rate": 56.0
+    },
+    {
+      "employee_id": "E1036",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ח",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1036",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1037",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1037",
+      "role_name": "נהג",
+      "company_name": "חברת בת ג",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1037",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת א",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1037",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ג",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1037",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1037",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ג",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "rate": 78.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ה",
+      "rate": 64.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת א",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ה",
+      "rate": 80.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "rate": 82.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ה",
+      "rate": 52.0
+    },
+    {
+      "employee_id": "E1038",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "rate": 67.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ה",
+      "rate": 50.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ד",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת א",
+      "rate": 56.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ה",
+      "rate": 87.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ד",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ד",
+      "rate": 80.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 57.0
+    },
+    {
+      "employee_id": "E1039",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "rate": 70.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ו",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ה",
+      "rate": 67.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 52.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 94.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ו",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1040",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ה",
+      "rate": 60.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ב",
+      "rate": 90.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "סדרן",
+      "company_name": "חברת בת א",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת א",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1041",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "rate": 51.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 94.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ד",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ח",
+      "rate": 86.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "סדרן",
+      "company_name": "חברת בת א",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ד",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ח",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1042",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 63.0
+    },
+    {
+      "employee_id": "E1043",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ה",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1043",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1043",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ה",
+      "rate": 50.0
+    },
+    {
+      "employee_id": "E1043",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "rate": 52.0
+    },
+    {
+      "employee_id": "E1044",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1044",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת א",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1044",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1044",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת א",
+      "rate": 84.0
+    },
+    {
+      "employee_id": "E1044",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "rate": 72.0
+    },
+    {
+      "employee_id": "E1044",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 58.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ח",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 58.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ח",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 78.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 78.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ח",
+      "rate": 97.0
+    },
+    {
+      "employee_id": "E1045",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ג",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 83.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "rate": 92.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "rate": 99.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ד",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ג",
+      "rate": 73.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ד",
+      "rate": 61.0
+    },
+    {
+      "employee_id": "E1046",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ג",
+      "rate": 66.0
+    },
+    {
+      "employee_id": "E1047",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ז",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1047",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1047",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 76.0
+    },
+    {
+      "employee_id": "E1047",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1047",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 99.0
+    },
+    {
+      "employee_id": "E1047",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 71.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ה",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ו",
+      "rate": 74.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "rate": 69.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "נהג",
+      "company_name": "חברת בת ה",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "rate": 88.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "נהג",
+      "company_name": "חברת בת ו",
+      "rate": 57.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "נהג",
+      "company_name": "חברת בת ג",
+      "rate": 81.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "rate": 96.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "rate": 70.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "rate": 75.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "rate": 59.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "rate": 53.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ו",
+      "rate": 64.0
+    },
+    {
+      "employee_id": "E1048",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ג",
+      "rate": 56.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 80.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "rate": 91.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "rate": 90.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "rate": 56.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1049",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "rate": 68.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "rate": 54.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "rate": 62.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ו",
+      "rate": 55.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "נהג",
+      "company_name": "חברת בת ב",
+      "rate": 77.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "נהג",
+      "company_name": "חברת בת ח",
+      "rate": 94.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "נהג",
+      "company_name": "חברת בת ו",
+      "rate": 93.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "rate": 85.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "rate": 98.0
+    },
+    {
+      "employee_id": "E1050",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "rate": 50.0
+    }
+  ],
+  "times": [
+    {
+      "work_date": "2026-01-19",
+      "employee_id": "E1022",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ה",
+      "start_time": "07:45",
+      "end_time": "16:30"
+    },
+    {
+      "work_date": "2026-01-18",
+      "employee_id": "E1020",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "start_time": "22:15",
+      "end_time": "05:30"
+    },
+    {
+      "work_date": "2026-01-28",
+      "employee_id": "E1026",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "start_time": "14:45",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-02-05",
+      "employee_id": "E1024",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "start_time": "23:15",
+      "end_time": "07:30"
+    },
+    {
+      "work_date": "2026-02-01",
+      "employee_id": "E1046",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ג",
+      "start_time": "14:30",
+      "end_time": "23:30"
+    },
+    {
+      "work_date": "2026-01-20",
+      "employee_id": "E1011",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "start_time": "09:45",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-02-05",
+      "employee_id": "E1024",
+      "role_name": "נהג",
+      "company_name": "חברת בת ד",
+      "start_time": "08:15",
+      "end_time": "13:00"
+    },
+    {
+      "work_date": "2026-02-02",
+      "employee_id": "E1029",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "start_time": "12:45",
+      "end_time": "23:00"
+    },
+    {
+      "work_date": "2026-01-09",
+      "employee_id": "E1046",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ג",
+      "start_time": "22:30",
+      "end_time": "04:15"
+    },
+    {
+      "work_date": "2026-01-24",
+      "employee_id": "E1025",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ד",
+      "start_time": "14:45",
+      "end_time": "00:00"
+    },
+    {
+      "work_date": "2026-02-03",
+      "employee_id": "E1032",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ז",
+      "start_time": "06:30",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-02-06",
+      "employee_id": "E1006",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ג",
+      "start_time": "21:45",
+      "end_time": "07:45"
+    },
+    {
+      "work_date": "2026-01-28",
+      "employee_id": "E1007",
+      "role_name": "נהג",
+      "company_name": "חברת בת ז",
+      "start_time": "23:00",
+      "end_time": "07:00"
+    },
+    {
+      "work_date": "2026-01-26",
+      "employee_id": "E1011",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ו",
+      "start_time": "07:15",
+      "end_time": "14:30"
+    },
+    {
+      "work_date": "2026-01-10",
+      "employee_id": "E1038",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "start_time": "16:00",
+      "end_time": "21:00"
+    },
+    {
+      "work_date": "2026-01-01",
+      "employee_id": "E1010",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ו",
+      "start_time": "10:30",
+      "end_time": "16:00"
+    },
+    {
+      "work_date": "2026-02-03",
+      "employee_id": "E1042",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "start_time": "22:45",
+      "end_time": "05:30"
+    },
+    {
+      "work_date": "2026-01-15",
+      "employee_id": "E1042",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ח",
+      "start_time": "16:30",
+      "end_time": "00:00"
+    },
+    {
+      "work_date": "2026-01-16",
+      "employee_id": "E1017",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ה",
+      "start_time": "23:00",
+      "end_time": "06:00"
+    },
+    {
+      "work_date": "2026-01-13",
+      "employee_id": "E1017",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "start_time": "10:45",
+      "end_time": "17:30"
+    },
+    {
+      "work_date": "2026-01-24",
+      "employee_id": "E1009",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "start_time": "14:45",
+      "end_time": "23:30"
+    },
+    {
+      "work_date": "2026-01-13",
+      "employee_id": "E1043",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ה",
+      "start_time": "07:45",
+      "end_time": "14:30"
+    },
+    {
+      "work_date": "2026-01-13",
+      "employee_id": "E1008",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ח",
+      "start_time": "10:00",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1021",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "start_time": "16:00",
+      "end_time": "02:00"
+    },
+    {
+      "work_date": "2026-02-08",
+      "employee_id": "E1001",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ה",
+      "start_time": "08:00",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-01-04",
+      "employee_id": "E1039",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת א",
+      "start_time": "12:00",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-01-11",
+      "employee_id": "E1049",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "start_time": "16:30",
+      "end_time": "20:00"
+    },
+    {
+      "work_date": "2026-01-25",
+      "employee_id": "E1012",
+      "role_name": "נהג",
+      "company_name": "חברת בת ב",
+      "start_time": "06:30",
+      "end_time": "11:00"
+    },
+    {
+      "work_date": "2026-01-06",
+      "employee_id": "E1023",
+      "role_name": "נהג",
+      "company_name": "חברת בת ד",
+      "start_time": "09:30",
+      "end_time": "19:00"
+    },
+    {
+      "work_date": "2026-01-20",
+      "employee_id": "E1018",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "start_time": "09:45",
+      "end_time": "18:30"
+    },
+    {
+      "work_date": "2026-01-13",
+      "employee_id": "E1048",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "start_time": "23:45",
+      "end_time": "05:00"
+    },
+    {
+      "work_date": "2026-01-25",
+      "employee_id": "E1028",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ו",
+      "start_time": "06:15",
+      "end_time": "14:00"
+    },
+    {
+      "work_date": "2026-01-05",
+      "employee_id": "E1028",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת א",
+      "start_time": "06:30",
+      "end_time": "14:00"
+    },
+    {
+      "work_date": "2026-01-18",
+      "employee_id": "E1050",
+      "role_name": "נהג",
+      "company_name": "חברת בת ח",
+      "start_time": "21:45",
+      "end_time": "04:45"
+    },
+    {
+      "work_date": "2026-01-25",
+      "employee_id": "E1011",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ו",
+      "start_time": "16:00",
+      "end_time": "22:00"
+    },
+    {
+      "work_date": "2026-01-20",
+      "employee_id": "E1018",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ה",
+      "start_time": "12:30",
+      "end_time": "23:00"
+    },
+    {
+      "work_date": "2026-02-08",
+      "employee_id": "E1030",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ג",
+      "start_time": "09:00",
+      "end_time": "19:00"
+    },
+    {
+      "work_date": "2026-01-03",
+      "employee_id": "E1043",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "start_time": "07:30",
+      "end_time": "12:00"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1031",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ב",
+      "start_time": "16:15",
+      "end_time": "22:00"
+    },
+    {
+      "work_date": "2026-01-09",
+      "employee_id": "E1012",
+      "role_name": "נהג",
+      "company_name": "חברת בת ג",
+      "start_time": "07:30",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-01-18",
+      "employee_id": "E1009",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "start_time": "10:45",
+      "end_time": "17:30"
+    },
+    {
+      "work_date": "2026-01-16",
+      "employee_id": "E1024",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "start_time": "09:00",
+      "end_time": "18:30"
+    },
+    {
+      "work_date": "2026-01-26",
+      "employee_id": "E1039",
+      "role_name": "אחראי משמרת",
+      "company_name": "חברת בת ד",
+      "start_time": "07:00",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-01-07",
+      "employee_id": "E1028",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "start_time": "12:30",
+      "end_time": "16:00"
+    },
+    {
+      "work_date": "2026-01-15",
+      "employee_id": "E1003",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "start_time": "09:30",
+      "end_time": "14:00"
+    },
+    {
+      "work_date": "2026-02-02",
+      "employee_id": "E1006",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "start_time": "06:30",
+      "end_time": "11:00"
+    },
+    {
+      "work_date": "2026-01-14",
+      "employee_id": "E1043",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "start_time": "09:00",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-02-08",
+      "employee_id": "E1036",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "start_time": "12:30",
+      "end_time": "22:00"
+    },
+    {
+      "work_date": "2026-01-12",
+      "employee_id": "E1022",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "start_time": "16:00",
+      "end_time": "03:00"
+    },
+    {
+      "work_date": "2026-01-27",
+      "employee_id": "E1039",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "start_time": "07:45",
+      "end_time": "13:00"
+    },
+    {
+      "work_date": "2026-01-18",
+      "employee_id": "E1032",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "start_time": "06:30",
+      "end_time": "14:00"
+    },
+    {
+      "work_date": "2026-01-27",
+      "employee_id": "E1038",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "start_time": "14:15",
+      "end_time": "00:00"
+    },
+    {
+      "work_date": "2026-01-01",
+      "employee_id": "E1042",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ח",
+      "start_time": "20:30",
+      "end_time": "07:45"
+    },
+    {
+      "work_date": "2026-01-11",
+      "employee_id": "E1012",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "start_time": "14:30",
+      "end_time": "19:00"
+    },
+    {
+      "work_date": "2026-02-02",
+      "employee_id": "E1011",
+      "role_name": "סדרן",
+      "company_name": "חברת בת א",
+      "start_time": "08:00",
+      "end_time": "13:00"
+    },
+    {
+      "work_date": "2026-01-25",
+      "employee_id": "E1012",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "start_time": "06:30",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-01-04",
+      "employee_id": "E1035",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "start_time": "21:45",
+      "end_time": "05:15"
+    },
+    {
+      "work_date": "2026-01-31",
+      "employee_id": "E1033",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "start_time": "08:30",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-01-08",
+      "employee_id": "E1013",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "start_time": "20:00",
+      "end_time": "06:45"
+    },
+    {
+      "work_date": "2026-02-08",
+      "employee_id": "E1016",
+      "role_name": "קופאי",
+      "company_name": "חברת בת א",
+      "start_time": "10:45",
+      "end_time": "17:30"
+    },
+    {
+      "work_date": "2026-01-25",
+      "employee_id": "E1041",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "start_time": "08:00",
+      "end_time": "12:00"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1017",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ד",
+      "start_time": "16:45",
+      "end_time": "22:00"
+    },
+    {
+      "work_date": "2026-01-26",
+      "employee_id": "E1023",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "start_time": "12:45",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-02-02",
+      "employee_id": "E1030",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ז",
+      "start_time": "21:30",
+      "end_time": "04:00"
+    },
+    {
+      "work_date": "2026-01-04",
+      "employee_id": "E1016",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "start_time": "20:15",
+      "end_time": "04:15"
+    },
+    {
+      "work_date": "2026-02-01",
+      "employee_id": "E1047",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ז",
+      "start_time": "22:15",
+      "end_time": "06:30"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1008",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ג",
+      "start_time": "16:30",
+      "end_time": "23:30"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1035",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת א",
+      "start_time": "09:45",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-01-11",
+      "employee_id": "E1033",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ב",
+      "start_time": "08:00",
+      "end_time": "16:00"
+    },
+    {
+      "work_date": "2026-02-03",
+      "employee_id": "E1019",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ב",
+      "start_time": "16:30",
+      "end_time": "21:00"
+    },
+    {
+      "work_date": "2026-02-04",
+      "employee_id": "E1015",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "start_time": "12:30",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-01-22",
+      "employee_id": "E1045",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ח",
+      "start_time": "06:30",
+      "end_time": "14:00"
+    },
+    {
+      "work_date": "2026-01-20",
+      "employee_id": "E1041",
+      "role_name": "סדרן",
+      "company_name": "חברת בת א",
+      "start_time": "09:30",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1008",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "start_time": "06:45",
+      "end_time": "12:00"
+    },
+    {
+      "work_date": "2026-01-15",
+      "employee_id": "E1044",
+      "role_name": "מלקט",
+      "company_name": "חברת בת א",
+      "start_time": "22:00",
+      "end_time": "06:30"
+    },
+    {
+      "work_date": "2026-02-04",
+      "employee_id": "E1014",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "start_time": "09:45",
+      "end_time": "18:30"
+    },
+    {
+      "work_date": "2026-01-11",
+      "employee_id": "E1042",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ד",
+      "start_time": "16:00",
+      "end_time": "21:00"
+    },
+    {
+      "work_date": "2026-02-10",
+      "employee_id": "E1026",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת א",
+      "start_time": "06:30",
+      "end_time": "10:00"
+    },
+    {
+      "work_date": "2026-02-08",
+      "employee_id": "E1033",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ז",
+      "start_time": "16:15",
+      "end_time": "23:30"
+    },
+    {
+      "work_date": "2026-01-01",
+      "employee_id": "E1020",
+      "role_name": "נהג",
+      "company_name": "חברת בת ב",
+      "start_time": "09:00",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-01-07",
+      "employee_id": "E1024",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ד",
+      "start_time": "09:45",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-01-13",
+      "employee_id": "E1007",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ז",
+      "start_time": "10:30",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-02-10",
+      "employee_id": "E1044",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ד",
+      "start_time": "06:45",
+      "end_time": "16:00"
+    },
+    {
+      "work_date": "2026-01-30",
+      "employee_id": "E1050",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "start_time": "07:15",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-01-03",
+      "employee_id": "E1001",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ד",
+      "start_time": "10:30",
+      "end_time": "20:00"
+    },
+    {
+      "work_date": "2026-01-19",
+      "employee_id": "E1007",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ז",
+      "start_time": "06:30",
+      "end_time": "12:00"
+    },
+    {
+      "work_date": "2026-01-16",
+      "employee_id": "E1001",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ב",
+      "start_time": "12:45",
+      "end_time": "19:30"
+    },
+    {
+      "work_date": "2026-01-22",
+      "employee_id": "E1004",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ז",
+      "start_time": "16:00",
+      "end_time": "03:00"
+    },
+    {
+      "work_date": "2026-01-02",
+      "employee_id": "E1049",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ב",
+      "start_time": "09:00",
+      "end_time": "19:00"
+    },
+    {
+      "work_date": "2026-02-06",
+      "employee_id": "E1042",
+      "role_name": "סדרן",
+      "company_name": "חברת בת א",
+      "start_time": "20:30",
+      "end_time": "05:15"
+    },
+    {
+      "work_date": "2026-01-02",
+      "employee_id": "E1021",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ח",
+      "start_time": "06:00",
+      "end_time": "11:00"
+    },
+    {
+      "work_date": "2026-01-05",
+      "employee_id": "E1046",
+      "role_name": "נציג שירות",
+      "company_name": "חברת בת ג",
+      "start_time": "07:00",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-01-16",
+      "employee_id": "E1008",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ו",
+      "start_time": "20:45",
+      "end_time": "06:00"
+    },
+    {
+      "work_date": "2026-01-09",
+      "employee_id": "E1049",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "start_time": "14:00",
+      "end_time": "22:00"
+    },
+    {
+      "work_date": "2026-01-23",
+      "employee_id": "E1037",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת א",
+      "start_time": "12:45",
+      "end_time": "21:30"
+    },
+    {
+      "work_date": "2026-01-19",
+      "employee_id": "E1016",
+      "role_name": "נהג",
+      "company_name": "חברת בת ז",
+      "start_time": "20:45",
+      "end_time": "06:00"
+    },
+    {
+      "work_date": "2026-02-04",
+      "employee_id": "E1001",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "start_time": "07:15",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-01-28",
+      "employee_id": "E1022",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ח",
+      "start_time": "06:30",
+      "end_time": "10:00"
+    },
+    {
+      "work_date": "2026-02-01",
+      "employee_id": "E1035",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ד",
+      "start_time": "12:15",
+      "end_time": "20:00"
+    },
+    {
+      "work_date": "2026-01-19",
+      "employee_id": "E1014",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ח",
+      "start_time": "07:45",
+      "end_time": "12:00"
+    },
+    {
+      "work_date": "2026-02-05",
+      "employee_id": "E1023",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ב",
+      "start_time": "23:45",
+      "end_time": "04:00"
+    },
+    {
+      "work_date": "2026-01-24",
+      "employee_id": "E1048",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ה",
+      "start_time": "08:15",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-01-30",
+      "employee_id": "E1046",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ד",
+      "start_time": "08:30",
+      "end_time": "19:00"
+    },
+    {
+      "work_date": "2026-01-11",
+      "employee_id": "E1015",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת א",
+      "start_time": "08:45",
+      "end_time": "17:30"
+    },
+    {
+      "work_date": "2026-01-16",
+      "employee_id": "E1025",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "start_time": "08:15",
+      "end_time": "14:00"
+    },
+    {
+      "work_date": "2026-01-21",
+      "employee_id": "E1003",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "start_time": "12:30",
+      "end_time": "19:30"
+    },
+    {
+      "work_date": "2026-01-07",
+      "employee_id": "E1044",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ד",
+      "start_time": "08:30",
+      "end_time": "14:00"
+    },
+    {
+      "work_date": "2026-01-20",
+      "employee_id": "E1007",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "start_time": "20:15",
+      "end_time": "06:45"
+    },
+    {
+      "work_date": "2026-01-30",
+      "employee_id": "E1029",
+      "role_name": "מלקט",
+      "company_name": "חברת בת ג",
+      "start_time": "14:30",
+      "end_time": "21:30"
+    },
+    {
+      "work_date": "2026-01-30",
+      "employee_id": "E1008",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "start_time": "14:15",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-01-28",
+      "employee_id": "E1048",
+      "role_name": "נהג",
+      "company_name": "חברת בת א",
+      "start_time": "09:00",
+      "end_time": "15:00"
+    },
+    {
+      "work_date": "2026-01-30",
+      "employee_id": "E1004",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ד",
+      "start_time": "07:15",
+      "end_time": "17:00"
+    },
+    {
+      "work_date": "2026-01-26",
+      "employee_id": "E1003",
+      "role_name": "מנהל סניף",
+      "company_name": "חברת בת ד",
+      "start_time": "16:00",
+      "end_time": "03:00"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1048",
+      "role_name": "קופאי",
+      "company_name": "חברת בת ג",
+      "start_time": "14:00",
+      "end_time": "01:00"
+    },
+    {
+      "work_date": "2026-01-03",
+      "employee_id": "E1018",
+      "role_name": "נהג",
+      "company_name": "חברת בת ז",
+      "start_time": "09:00",
+      "end_time": "18:30"
+    },
+    {
+      "work_date": "2026-02-06",
+      "employee_id": "E1050",
+      "role_name": "מאבטח",
+      "company_name": "חברת בת ח",
+      "start_time": "06:30",
+      "end_time": "15:30"
+    },
+    {
+      "work_date": "2026-01-27",
+      "employee_id": "E1048",
+      "role_name": "נהג",
+      "company_name": "חברת בת ה",
+      "start_time": "08:00",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-02-09",
+      "employee_id": "E1034",
+      "role_name": "טכנאי",
+      "company_name": "חברת בת ב",
+      "start_time": "14:00",
+      "end_time": "18:00"
+    },
+    {
+      "work_date": "2026-01-05",
+      "employee_id": "E1033",
+      "role_name": "מחסנאי",
+      "company_name": "חברת בת ו",
+      "start_time": "07:30",
+      "end_time": "14:30"
+    },
+    {
+      "work_date": "2026-01-26",
+      "employee_id": "E1042",
+      "role_name": "סדרן",
+      "company_name": "חברת בת ד",
+      "start_time": "08:00",
+      "end_time": "14:00"
+    }
+  ]
+}
